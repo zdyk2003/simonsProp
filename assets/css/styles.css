@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #777;
+    padding: 30px;
+}
+
+h1{
+	font-size: 40px;
+	padding-bottom: 25px;
+}
+
+#navbar {
+	background-color: #fcfcfc;
+	font-size: 18px;
+	color: #777;
+	height: 200px;
+
+}
+
+#circleLogo{
+	width: 50px;
+	position: absolute;
+	padding: 5px;
+}
+
+#home-logo{
+	position: absolute;
+	top: 25%;
+	left: 40%;
+	/*shifts the text box half of its width to the left*/
+	transform: translate(-30%, -50%);
+	/*text-align: center;*/
+	background-position: center;
+	background-size: cover;
+}
+		#simons {
+			display: block;
+			width: 100%;
+			animation-name: moveInBottom;
+			animation-duration: 2s;
+			animation-timing-function: ease-out;
+		}
+
+		@keyframes moveInBottom {
+		  0% {
+		    opacity: 0;
+		    transform: translateY(50px); }
+		  100% {
+		    opacity: 1;
+		    transform: translate(0);
+		    /*translate(0) will have the element look 
+		    how it does without the animation*/ 
+		    } 
+		}
+
+#services{
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	padding-top: 400px;
+}
+
+#gallery{
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	padding-top: 200px;
+
+}
+	.thumbnailList{
+	    list-style:none;
+	    margin-left: -40px;
+	    margin-top:20px;
+	}
+
+	.thumbnailContainer{
+		padding-left: 15px;
+	}
+
+	.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	    width: 100%;
+	}
+
+	#left-btn{
+	border: none;
+	text-shadow: none;
+	background-image: none;
+	}
+	#right-btn{
+		border: none;
+		text-shadow: none;
+		background-image: none;
+	}
+	.glyphicon:hover{
+		color: #555656;
+	}
+
+

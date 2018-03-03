@@ -23,6 +23,14 @@ body{
 
 }
 
+#navbar2 {
+	background-color: #fcfcfc;
+	font-size: 25px;
+	color: #235411;
+	height: 200px;
+
+}
+/*home*/
 #circleLogo{
 	width: 50px;
 	position: absolute;
@@ -32,13 +40,24 @@ body{
 #home-logo{
 	position: absolute;
 	top: 25%;
-	left: 40%;
+	left: 35%;
 	/*shifts the text box half of its width to the left*/
 	transform: translate(-30%, -50%);
 	/*text-align: center;*/
 	background-position: center;
 	background-size: cover;
 }
+
+#compPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 315px;
+    padding-bottom: 100px;
+
+}
+		
 		.mobile{
 			display: none;
 		}
@@ -63,35 +82,46 @@ body{
 		    } 
 		}
 
-		@media screen and (max-width: 900px) {
-			#home-logo .mobile{
-				display: block;
+	@media screen and (max-width: 900px) {
+		#home-logo .mobile{
+			display: block;
 			
-			}
-			#circle{
-				width: 200px;
-    			margin: 0 auto;
-    			margin-top: 115px;
-			}
-
-			#name {
-				width: 400px;
-			
-			}
-			#home-logo .desktop {
-				display: none;
-			}
 		}
+		#circle{
+			width: 200px;
+			margin: 0 auto;
+			margin-top: 115px;
+		}
+
+		#name {
+			width: 400px;
+		}
+
+		#compPic {
+			width: 400px;
+    		margin-top: auto;
+    		padding-top: 425px;
+
+		}
+
+		#home-logo .desktop {
+			display: none;
+		}
+	}
+
 
 #services{
 	background-size: cover;
 	background-position: center;
+	background-color: #f2f2f2;
 	height: 100%;
-	padding-top: 400px;
+	padding-top: 100px;
+	padding-bottom: 75px;
 }
+
 	h2{
 		font-size: 35px;
-		padding-bottom: 15px;
+		padding-bottom: 50px;
 		text-align: center;
 		font-weight: bold;
 		text-transform: uppercase;
@@ -100,6 +130,9 @@ body{
 
 	.thumbnail{
 		border: none;
+		width: 80%;
+		margin: 0 auto;
+		text-decoration: none;
 	}
 
 	.caption{
@@ -107,20 +140,41 @@ body{
 	}
 
 	#shovel{
-		width: 200px;
+		width: 175px;
 		padding: 15px;
 	}
 
 	#snowflake{
-		width: 200px;
+		width: 175px;
 		padding: 15px;
 	}
 
 	#leaf{
-		width: 200px;
+		width: 175px;
 		padding: 15px;
 	}
-#gallery{
+
+#gallery {
+	background-size: cover;
+	background-position: center;
+	background-color: #ccc;
+	height: 100%;
+	padding-top: 100px;
+	padding-bottom: 75px;
+}
+
+	.thumbnail img{
+		width: 100%;
+		height: 250px;
+	}
+
+	#flowerbedThumbnail{
+		/*transform: rotate(90deg);*/
+	}
+	#hardscapeThumbnail {
+		/*height: 220px;*/
+	}
+/*#gallery{
 	background-size: cover;
 	background-position: center;
 	height: 100%;
@@ -153,17 +207,24 @@ body{
 	}
 	.glyphicon:hover{
 		color: #555656;
-	}
+	}*/
 
 #contact {
+	background-size: cover;
+	background-position: center;
+	background-color: #f2f2f2;
+	height: 100%;
 	text-align: center;
 	padding-top: 50px;
 }
 	h3{
-		font-size: 20px;
+		font-size: 25px;
 		color: #777;
 	}
 
 footer{
 	text-align: center;
 }
+	p {
+		font-size: 10px;
+	}

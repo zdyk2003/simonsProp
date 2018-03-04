@@ -50,17 +50,7 @@ img{
 	background-position: center;
 	background-size: cover;
 }
-
-#compPic{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top: 315px;
-    padding-bottom: 100px;
-
-}	
-		.mobile{
+	.mobile{
 			display: none;
 		}
 
@@ -84,7 +74,30 @@ img{
 		    } 
 		}
 
+#compPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 315px;
+    padding-bottom: 100px;
+
+}	
+
+#compProfile{
+	padding-top: 315px;
+	padding-bottom: 100px;
+}
+	h3{
+		padding-bottom: 15px;
+	}
+		
+
 	@media screen and (max-width: 900px) {
+		#home-logo .desktop {
+			display: none;
+		}
+
 		#home-logo .mobile{
 			display: block;
 			
@@ -105,10 +118,13 @@ img{
     		padding-top: 375px;
 			padding-bottom: 25px;
 		}
-
-		#home-logo .desktop {
-			display: none;
+		
+		#compProfile {
+			padding-top: 30px;
+    		text-align: center;
+    		padding-bottom: 30px;
 		}
+		
 
 	}
 

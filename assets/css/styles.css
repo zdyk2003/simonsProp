@@ -13,11 +13,6 @@ img{
 	max-width: 100%;
 }
 
-/*h1{
-	font-size: 30px;
-	padding-bottom: 25px;
-}*/
-
 #navbar {
 	background-color: #fcfcfc;
 	font-size: 18px;
@@ -74,6 +69,7 @@ img{
 		    } 
 		}
 
+/*company picture and profile*/
 #compPic{
     display: block;
     margin-left: auto;
@@ -81,54 +77,18 @@ img{
     width: 80%;
     padding-top: 315px;
     padding-bottom: 100px;
-
 }	
 
 #compProfile{
-	padding-top: 315px;
+	padding-top: 375px;
 	padding-bottom: 100px;
+	text-align: center;
 }
 	h3{
 		padding-bottom: 15px;
 	}
 		
-
-	@media screen and (max-width: 900px) {
-		#home-logo .desktop {
-			display: none;
-		}
-
-		#home-logo .mobile{
-			display: block;
-			
-		}
-		#circle{
-			width: 200px;
-			margin: 0 auto;
-			margin-top: 115px;
-		}
-
-		#name {
-			width: 400px;
-		}
-
-		#compPic {
-			width: 400px;
-    		margin-top: auto;
-    		padding-top: 375px;
-			padding-bottom: 25px;
-		}
-		
-		#compProfile {
-			padding-top: 30px;
-    		text-align: center;
-    		padding-bottom: 30px;
-		}
-		
-
-	}
-
-
+/*services*/
 #services{
 	background-size: cover;
 	background-position: center;
@@ -142,11 +102,12 @@ img{
 
 	h2{
 		font-size: 35px;
-		padding-bottom: 50px;
+		padding-bottom: 30px;
 		text-align: center;
 		font-weight: bold;
 		text-transform: uppercase;
 		color: #777;
+		text-decoration: underline;
 	}
 
 	.thumbnail{
@@ -175,16 +136,15 @@ img{
 		padding: 15px;
 	}
 
+/*photo gallery*/
 #gallery {
 	background-size: cover;
 	background-position: center;
 	background-color: #ccc;
 	height: 100%;
-	padding-top: 100px;
-	padding-bottom: 75px;
-
+	padding-top: 75px;
+	padding-bottom: 30px;
 }
-
 	.col-md-3 {
 		padding-top: 15px;
 		padding-bottom: 15px;
@@ -224,26 +184,59 @@ img{
 		color: #555656;
 	}*/
 
+/*contact us*/
 #contact {
 	background-size: cover;
 	background-position: center;
 	background-color: #f2f2f2;
 	height: 100%;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 75px;
+	padding-bottom: 30px;
 }
 	h3{
 		font-size: 25px;
 		color: #777;
 		word-wrap: break-word;
 	}
-	.break-word{
-		
-	}
 
+/*footer*/
 footer{
 	text-align: center;
 }
 	p {
 		font-size: 10px;
 	}
+
+/*media queries*/
+@media screen and (max-width: 900px) {
+	#home-logo .desktop {
+		display: none;
+	}
+
+	#home-logo .mobile{
+		display: block;
+		
+	}
+	#circle{
+		width: 200px;
+		margin: 0 auto;
+		margin-top: 115px;
+	}
+
+	#name {
+		width: 400px;
+	}
+
+	#compPic {
+		width: 400px;
+		margin-top: auto;
+		padding-top: 375px;
+		padding-bottom: 25px;
+	}
+	
+	#compProfile {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}

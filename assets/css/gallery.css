@@ -1,3 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*background-color:  white;*/
+}
 body{
-	background-color: blue;
+	width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #777;
+    padding: 30px;
+}
+img{
+	max-width: 100%;
+}
+
+h2{
+		font-size: 35px;
+		padding-top: 60px;
+		padding-bottom: 40px;
+		text-align: center;
+		/*font-weight: bold;*/
+		text-transform: uppercase;
+		color: #777;
+		/*text-decoration: underline;*/
+}
+
+#navbar {
+	background-color: #fcfcfc;
+	font-size: 18px;
+	color: #777;
+	height: 200px;
+}
+
+#circleLogo{
+	width: 50px;
+	position: absolute;
+	padding: 5px;
+}
+
+.thumbnail {
+	border: none;
+}
+
+#left-btn {
+	border: none;
+	text-shadow: none;
+	background-image: none;
+}
+
+#right-btn{
+	border: none;
+	text-shadow: none;
+	background-image: none;
+}
+
+.glyphicon{
+	color: #6b7077;
+}
+.glyphicon:hover{
+	color: black;	
 }

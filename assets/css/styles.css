@@ -149,42 +149,7 @@ img{
 		padding-top: 15px;
 		padding-bottom: 15px;
 	}
-/*#gallery{
-	background-size: cover;
-	background-position: center;
-	height: 100%;
-	padding-top: 100px;
-
-}
-	.thumbnailList{
-	    list-style:none;
-	    margin-left: -40px;
-	    margin-top:20px;
-	}
-
-	.thumbnailContainer{
-		padding-left: 15px;
-	}
-
-	.carousel-inner>.item>img, .carousel-inner>.item>a>img {
-	    width: 100%;
-	}
-
-	#left-btn{
-	border: none;
-	text-shadow: none;
-	background-image: none;
-	}
-	#right-btn{
-		border: none;
-		text-shadow: none;
-		background-image: none;
-	}
-	.glyphicon:hover{
-		color: #555656;
-	}*/
-
-/*contact us*/
+	
 #contact {
 	background-size: cover;
 	background-position: center;

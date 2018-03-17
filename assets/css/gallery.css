@@ -60,3 +60,19 @@ h2{
 .glyphicon:hover{
 	color: black;	
 }
+
+/*media queries*/
+@media screen and (max-width: 900px) {
+	#home-logo .desktop {
+		display: none;
+	}
+
+	#home-logo .mobile{
+		display: block;
+		
+	}
+	#circle{
+		width: 200px;
+		margin: 0 auto;
+		margin-top: 115px;
+	}

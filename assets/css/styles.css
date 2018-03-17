@@ -149,7 +149,7 @@ img{
 		padding-top: 15px;
 		padding-bottom: 15px;
 	}
-	
+
 #contact {
 	background-size: cover;
 	background-position: center;
@@ -191,6 +191,7 @@ footer{
 
 	#name {
 		width: 400px;
+		padding-top: 25px;
 	}
 
 	#compPic {
